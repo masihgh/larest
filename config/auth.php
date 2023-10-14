@@ -116,4 +116,19 @@ return [
 
     'password_timeout' => 10800,
 
+    /*
+    |--------------------------------------------------------------------------
+    | Token Expiration Settings
+    |--------------------------------------------------------------------------
+    |
+    | Define the duration for token expiration, including access tokens,
+    | refresh tokens, and personal access tokens.
+    |
+    */
+
+    'token_expiration' => [
+        'access_tokens' => now()->addDays(15),
+        'refresh_tokens' => now()->addDays(30),
+        'personal_access_tokens' => now()->addMonths(6),
+    ],
 ];
