@@ -1,8 +1,8 @@
 {
-    "name": "laravel/laravel",
+    "name": "masihgh/larest",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "Looking for a Laravel pro to refine my REST API scaffold, featuring Swagger, API resources, JWT auth, social login, and OTP authentication.",
+    "keywords": ["laravel", "scaffold","rest-api"],
     "license": "MIT",
     "require": {
         "php": "^8.1",
